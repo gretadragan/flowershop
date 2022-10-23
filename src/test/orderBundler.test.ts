@@ -1,5 +1,5 @@
-import { computeBundles, processOrder } from "./orderBundler"
-import { Order } from "./orderParser"
+import { computeBundles, processOrder } from "../orderBundler"
+import { Order } from "../orderParser"
 
 test('10 Roses', () => {
   const totalQt = 10

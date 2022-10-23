@@ -1,4 +1,4 @@
-import inventory from './inventory.json';
+import inventory from './data/inventory.json';
 import { Order, OrderItem } from "./orderParser";
 
 interface ProcessedOrderItemBundle {

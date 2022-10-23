@@ -1,4 +1,4 @@
-import { parseOrder } from './orderParser';
+import { parseOrder } from '../orderParser';
 
 describe('Order parsing', () => {
   test('3 items order', () => {

@@ -1,6 +1,6 @@
 import { useCallback, useState } from 'react';
 import './App.css';
-import inventory from './inventory.json';
+import inventory from './data/inventory.json';
 import { OrderProcessingResult, processOrder } from './orderBundler';
 import { parseOrder } from './orderParser';
 
